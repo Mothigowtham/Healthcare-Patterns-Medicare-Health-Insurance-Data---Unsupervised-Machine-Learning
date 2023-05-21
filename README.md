@@ -1,10 +1,13 @@
 # Studying Access to Healthcare Patterns using Medicare Health Insurance Data
 
-Abstract: This project aims to determine if there is a difference in the access and utilization of Medicare health insurance services at various geographic, demographic, and epidemiological levels. I've used inpatient and outpatient data from 2018-2020 to determine differences in access to services before and during the COVID pandemic. Since Medicare is most commonly availed by older citizens, I also used Post-Acute care and Hospice data to study differences in access to services based on gender, chronic conditions, duration of utilization, and Medicare payments. This data can be used to understand the most common services availed by older patients and to examine if the differences in cost of care and access can be attributed to a few key factors.
+## Abstract
+This project aims to determine if there is a difference in the access and utilization of Medicare health insurance services at various geographic, demographic, and epidemiological levels. I've used inpatient and outpatient data from 2018-2020 to determine differences in access to services before and during the COVID pandemic. Since Medicare is most commonly availed by older citizens, I also used Post-Acute care and Hospice data to study differences in access to services based on gender, chronic conditions, duration of utilization, and Medicare payments. This data can be used to understand the most common services availed by older patients and to examine if the differences in cost of care and access can be attributed to a few key factors.
 
-Keywords: Medicare • CMS • inpatient • outpatient • post-acute care • hospice • skilled nursing facility • inpatient rehabilitation facility • long term care facility • clustering • healthcare • health insurance • data analysis • data visualization • SQL • python.
+## Keywords
+Medicare • CMS • inpatient • outpatient • post-acute care • hospice • skilled nursing facility • inpatient rehabilitation facility • long term care facility • clustering • healthcare • health insurance • data analysis • data visualization • SQL • python.
 
-Introduction: Medicare is a federally financed health insurance program for US citizens over the age of 65 years and younger individuals with disabilities or end-stage renal disease (Mues 2017). Since almost all individuals who are enrolled in Medicare do not leave the program until they die, the data captured from hospitals participating in the program provides a wealth of information about the key features of the health services being provided to the elderly population, the most common diseases afflicting the elderly, the demographic dynamics of the people who have access and benefit from this program.
+## Introduction
+Medicare is a federally financed health insurance program for US citizens over the age of 65 years and younger individuals with disabilities or end-stage renal disease (Mues 2017). Since almost all individuals who are enrolled in Medicare do not leave the program until they die, the data captured from hospitals participating in the program provides a wealth of information about the key features of the health services being provided to the elderly population, the most common diseases afflicting the elderly, the demographic dynamics of the people who have access and benefit from this program.
 
 Some examples of this include how Medicare data was used to determine that hospitals being given incentives to reduce patient readmissions fared better than hospitals that were penalized when they failed to do so (Hoffman 2020). Another study concluded that reducing a certain subset of low value services that offer negligible clinical benefit to patients but cumulatively account for significant spending in the program would serve as an effective cost saving measure (Reid 2021).
 
@@ -28,14 +31,17 @@ Aim: My aim is to utilize this data to elucidate the type of facilities availabl
 Based on our research questions, our hypothesis is below:
 
 To study the distribution of services across various geographic and demographic levels
-Null Hypothesis:
+### Null Hypothesis
  There is no difference in the types of services available to patients across different geographic levels (cities, states, and across different states).
  There is no difference in the types of services available to patients across different demographic levels (based on ethnicity, and disease conditions).
-Alternative Hypothesis:
+
+### Alternative Hypothesis
  There is a discernible difference in the types of services available to patients across different geographic levels (cities, states, across different states).
  There is a discernible difference in the types of services available to patients across different demographic levels (based on ethnicity, and disease conditions).
+
 For Clustering Analysis
 Null Hypothesis: There are no subsets in the data that are more like each other than the rest of the data i.e., Hospital facilities cannot be segregated based on overall ratings, demographic access to care data, and hospital encounter criteria.
+
 Alternative Hypothesis: There are subsets in the data that have higher similarity to each other than the rest of the data i.e., Hospital facilities can be segregated based on overall ratings, demographic access to care data, and hospital encounter criteria.
 
 
